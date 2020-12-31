@@ -1,0 +1,22 @@
+{
+  "name": "postcss-excise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "convert": "tyarn postcss i.css -o o.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.1.0",
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "cssnano": "^4.1.10",
+    "postcss": "^8.2.2",
+    "postcss-cli": "^8.3.1",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^14.0.0",
+    "postcss-modules": "^4.0.0",
+    "stylelint": "^13.8.0"
+  }
+}

@@ -1,0 +1,25 @@
+@import './i2.css';
+
+:root {
+    --colors: #fff;
+}
+
+div {
+    margin: 10px;
+    position: fixed;
+    left: 5px;
+    top: 5px;
+    float: left;
+    list-style-type: none;
+    background-color: var(--colors);
+    transition: .5s;
+    display: table-cell;
+}
+
+.title {
+    color: tomato;
+}
+
+.content {
+    background-color: yellow;
+}
